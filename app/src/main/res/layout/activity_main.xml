@@ -6,13 +6,69 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="674dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="32dp">
 
+        <EditText
+            android:id="@+id/p1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nota P1"
+            android:inputType="number|textPersonName" />
+
+        <EditText
+            android:id="@+id/p2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nota P2"
+            android:inputType="number|textPersonName" />
+
+        <EditText
+            android:id="@+id/p3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nota P3"
+            android:inputType="number|textPersonName" />
+
+        <EditText
+            android:id="@+id/resultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Resultado"
+            android:inputType="textPersonName" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:orientation="horizontal" />
+
+        <Button
+            android:id="@+id/calcular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="calcular"
+            android:text="Calcular" />
+
+        <Button
+            android:id="@+id/limpar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="limpar"
+            android:text="Limpar" />
+
+        <Button
+            android:id="@+id/proxTela2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Proxima Tela" />
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
