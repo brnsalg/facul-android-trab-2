@@ -38,12 +38,22 @@
             android:inputType="number|textPersonName" />
 
         <EditText
-            android:id="@+id/resultado"
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:editable="false"
+            android:ems="10"
+            android:hint="Status"
+            android:inputType="none" />
+
+        <EditText
+            android:id="@+id/resultado_final"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Resultado"
-            android:inputType="textPersonName" />
+            android:inputType="none" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -65,7 +75,7 @@
             android:text="Limpar" />
 
         <Button
-            android:id="@+id/proxTela2"
+            android:id="@+id/proxTela"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Proxima Tela" />
