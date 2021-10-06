@@ -38,6 +38,14 @@
             android:inputType="number|textPersonName" />
 
         <EditText
+            android:id="@+id/media_med"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Média"
+            android:inputType="number|textPersonName" />
+
+        <EditText
             android:id="@+id/status"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -45,14 +53,6 @@
             android:editable="false"
             android:ems="10"
             android:hint="Status"
-            android:inputType="none" />
-
-        <EditText
-            android:id="@+id/resultado_final"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Resultado"
             android:inputType="none" />
 
         <LinearLayout
